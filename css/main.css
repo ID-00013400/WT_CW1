@@ -109,7 +109,9 @@ body {
   }
 }
 
-
+.container {
+	padding: 0.5% 20% 0.5% 20%;
+}
 
 .mission {
 	text-align: center;
@@ -171,17 +173,18 @@ body {
 
 /* FOOTER */
 
-.container {
-	padding: 0.5% 20% 0.5% 20%;
-}
-
 .footer_container {
-	background-color: rgba(0, 0, 0,.5);
-  background-blend-mode: multiply;
+	background-image: url('../img/04.jpg');
+	background-color: rgba(0, 0, 0, 0.0);
+	/background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
   padding: 0.5% 20% 0.5% 20%;
 }
 
 .footer {
+
 	padding-top: 10px;
 	height: 320px;
 	display: flex;
